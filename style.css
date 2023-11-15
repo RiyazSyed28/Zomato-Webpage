@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Merriweather', serif;
-    background-color:#f9fafc;
+    background-color:#ebf2ff;
 }
 .navbar {
     display: flex;
@@ -21,7 +21,7 @@ body {
 .navbar__logo {
     width:100%;
 }
-.nav__item {
+.button__primary {
     background-image: linear-gradient(
         to right,
         #ff512f 0%,
@@ -34,10 +34,15 @@ body {
     border-radius :6px;
 
 }
-.nav__item:hover {
+.button__primary:hover {
     border: 2px solid #ff6767;
     cursor: pointer;
 }
+.hero__text {
+    font-size: 30px;
+    margin:20px 0;
+}
+
 @media (min-width:768px) {
     
     .navbar {
@@ -45,12 +50,20 @@ body {
         padding: 10px 30px;
     }
 }
-
+.container {
+    padding:20px;
+}
+.hero__image__container {
+    width: 100%;
+}
+.hero__image {
+    width: 100%;
+}
 @media (min-width:1024px) {
     .navbar__brand {
         width: 150px;
     }
-    .nav__item {
+    .button__primary {
         padding: 20px;
         font-size: 20px;
         font-weight: 600;
